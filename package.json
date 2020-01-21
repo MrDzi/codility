@@ -1,0 +1,23 @@
+{
+  "name": "codility",
+  "version": "1.0.0",
+  "description": "Codility lessions",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrDzi/codility.git"
+  },
+  "author": "Dejan Hadziomerovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrDzi/codility/issues"
+  },
+  "homepage": "https://github.com/MrDzi/codility#readme",
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "jest": "^24.9.0"
+  }
+}
