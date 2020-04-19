@@ -18,6 +18,6 @@ A ≤ B.
 
 ***/
 
-const countDiv = (A, B, K) => Math.floor((B - (A < K ? K : A + A % K)) / K) + 1;
+const countDiv = (A, B, K) => B >= K ? Math.floor((B - (A < K ? K : A + A % K)) / K) + 1 : 0;
 
 export default countDiv;
